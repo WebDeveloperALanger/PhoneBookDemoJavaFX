@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0276e0b5-0cea-4941-8562-ca6d481e0805" name="Changes" comment="demo image updated">
-      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+    <list default="true" id="0276e0b5-0cea-4941-8562-ca6d481e0805" name="Changes" comment="LICENSE.md added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685062838665</updated>
-      <workItem from="1685062839740" duration="4323000" />
+      <workItem from="1685062839740" duration="5014000" />
     </task>
     <task id="LOCAL-00001" summary="PhoneBook codebase added">
       <created>1685064198860</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685066640018</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="LICENSE.md added">
+      <created>1685067438193</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685067438193</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +122,7 @@
     <MESSAGE value="PhoneBook codebase added" />
     <MESSAGE value="README.md updated" />
     <MESSAGE value="demo image updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo image updated" />
+    <MESSAGE value="LICENSE.md added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LICENSE.md added" />
   </component>
 </project>
