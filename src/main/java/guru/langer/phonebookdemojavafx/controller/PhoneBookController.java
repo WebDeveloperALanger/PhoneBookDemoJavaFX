@@ -8,6 +8,7 @@ import javafx.scene.control.*;
 import javafx.util.Callback;
 
 import java.io.IOException;
+
 public class PhoneBookController {
 
     @FXML
@@ -203,22 +204,25 @@ public class PhoneBookController {
         alert.setHeaderText(null);
         alert.setContentText(contact.getContactAsStringWithLineBreak());
 
-        ButtonType buttonTypeYes = new ButtonType("Ja");
+        ButtonType buttonTypeDelete = new ButtonType("Kontakt löschen");
         ButtonType buttonTypeNo = new ButtonType("Nein");
+        ButtonType buttonTypeYes = new ButtonType("Ja");
 
-        alert.getButtonTypes().setAll(buttonTypeNo, buttonTypeYes);
+        alert.getButtonTypes().setAll(buttonTypeDelete, buttonTypeNo, buttonTypeYes);
 
         alert.showAndWait().ifPresent(buttonType -> {
-            if (buttonType == buttonTypeYes) {
-                /*
-                 * --- Wenn User mit Ja Button reagiert, wird der zu bearbeitende Kontakt geladen.
-                 */
-                loadEditableContact(contact);
-            } else {
-                if (isEditMode()) {
-                    clearEditMode();
+
+            switch (buttonType.getText()) {
+                case "Ja" -> loadEditableContact(contact);
+                case "Nein" -> {
+                    if (isEditMode()) {
+                        clearEditMode();
+                    }
+                    ;
                 }
+                case "Kontakt löschen" -> itemsList.remove(contact);
             }
+
         });
     }
 

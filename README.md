@@ -3,6 +3,8 @@
 Phone book demo application in JavaFX by [Andre Langer](https://github.com/WebDeveloperALanger)
 
 ![PhoneBookDemoJavaFX Example Image](PhoneBookDemoJavaFXbyAndreLanger.png)
+ 
+![PhoneBookDemoJavaFX_Alert.png](PhoneBookDemoJavaFX_Alert.png)
 
 ## About This Project
 
