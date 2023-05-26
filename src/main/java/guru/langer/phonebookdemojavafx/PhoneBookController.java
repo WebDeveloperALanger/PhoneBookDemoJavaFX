@@ -302,6 +302,7 @@ public class PhoneBookController {
      */
     private void clearEditMode() {
         editableContact = null;
+        btnCancelEditMode.setVisible(false);
         clearInputFields();
     }
 
@@ -356,7 +357,6 @@ public class PhoneBookController {
 
     public void onCancelEditMode() {
         clearEditMode();
-        btnCancelEditMode.setVisible(false);
     }
 
     public void onClickHyperlink() {
