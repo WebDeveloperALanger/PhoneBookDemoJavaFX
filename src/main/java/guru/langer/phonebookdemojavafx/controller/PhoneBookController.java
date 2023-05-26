@@ -1,5 +1,6 @@
-package guru.langer.phonebookdemojavafx;
+package guru.langer.phonebookdemojavafx.controller;
 
+import guru.langer.phonebookdemojavafx.model.ContactModel;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

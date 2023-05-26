@@ -1,4 +1,4 @@
-package guru.langer.phonebookdemojavafx;
+package guru.langer.phonebookdemojavafx.model;
 
 
 public class ContactModel {
