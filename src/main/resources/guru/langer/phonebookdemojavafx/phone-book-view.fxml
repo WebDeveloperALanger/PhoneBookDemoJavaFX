@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0"
+            prefWidth="723.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="guru.langer.phonebookdemojavafx.PhoneBookController">
+    <Button fx:id="btnSave" layoutX="616.0" layoutY="167.0" onAction="#onClickBtnSave" text="speichern"/>
+    <TextField fx:id="inputName" layoutX="534.0" layoutY="35.0"/>
+    <TextField fx:id="inputPhone" layoutX="534.0" layoutY="77.0"/>
+    <TextField fx:id="inputEmail" layoutX="534.0" layoutY="123.0"/>
+    <Label layoutX="475.0" layoutY="37.0" prefHeight="25.0" prefWidth="59.0" text="Name"/>
+    <Label layoutX="475.0" layoutY="79.0" prefHeight="25.0" prefWidth="59.0" text="Telefon"/>
+    <Label layoutX="475.0" layoutY="125.0" prefHeight="25.0" prefWidth="59.0" text="E-Mail"/>
+    <ListView fx:id="listViewContacts" layoutX="99.0" layoutY="79.0" prefHeight="433.0" prefWidth="346.0"/>
+    <TextField fx:id="filterInput" layoutX="99.0" layoutY="35.0" onKeyReleased="#onFilterInput" prefHeight="25.0"
+               prefWidth="346.0"/>
+    <Label layoutX="34.0" layoutY="35.0" prefHeight="25.0" prefWidth="49.0" text="Filter"/>
+    <Label layoutX="34.0" layoutY="79.0" prefHeight="25.0" prefWidth="59.0" text="Einträge"/>
+    <Button fx:id="btnCancelEditMode" layoutX="534.0" layoutY="167.0" mnemonicParsing="false"
+            onAction="#onCancelEditMode" text="abbrechen"/>
+    <Hyperlink layoutX="530.0" layoutY="487.0" onAction="#onClickHyperlink" prefHeight="25.0"
+               text="by Andre Langer"/>
+    <Label layoutX="534.0" layoutY="436.0" text="JavaFX phone book &#10;for demon purposes"/>
+</AnchorPane>
