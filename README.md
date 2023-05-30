@@ -12,6 +12,8 @@ This simple demo project was crafted to teach JavaFX. By demonstrating my Java s
 practices, I hope it can serve as a useful resource for anyone interested in JavaFX. Feel free to explore, learn, and
 enjoy!
 
+For a more complex version of this JavaFX project, feel free to visit [PhoneBookJavaFXv2](https://github.com/WebDeveloperALanger/PhoneBookJavaFXv2) and use it as a learning resource to further enhance your understanding.
+
 ## Connect With Me
 
 I'm continually seeking fresh challenges and exciting opportunities.
